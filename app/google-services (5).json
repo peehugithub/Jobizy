@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959112954009",
+    "firebase_url": "https://peehu-530b7-default-rtdb.firebaseio.com",
+    "project_id": "peehu-530b7",
+    "storage_bucket": "peehu-530b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959112954009:android:9c011c7a689894541bf808",
+        "android_client_info": {
+          "package_name": "com.intern.peehu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959112954009-bld3bboaismfelmmnkalmbef8bri2cds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intern.peehu",
+            "certificate_hash": "e960725d9d3efc9057f288bb80e1d6e56af12fa0"
+          }
+        },
+        {
+          "client_id": "959112954009-8b6j6f44r7parprnldf7m2bsle8nkbih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MdsPXP61s5nPh-THHfko5ohKvjJP_C8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959112954009-8b6j6f44r7parprnldf7m2bsle8nkbih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

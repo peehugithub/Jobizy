@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".practice"
+    tools:ignore="ExtraText">
+
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:hint="@string/select"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+       tools:ignore="MissingConstraints">
+       <AutoCompleteTextView
+           android:id="@+id/auto_complete_txt"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:inputType="none"/>
+   </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:hint="@string/your"
+
+
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+    <AutoCompleteTextView
+        android:id="@+id/full_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auto_complete_txt"
+        android:inputType="none"
+        />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:hint="@string/level"
+
+
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/half_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/full_text"
+            android:inputType="none"
+            />
+
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="15dp"
+
+
+        android:layout_marginTop="265dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/year_of_experience"
+
+        android:inputType="textAutoComplete"
+        android:padding="10dp"
+        android:textColor="#F4ECEC"
+        android:textColorHint="#80808083"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/contactnumber"
+
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="#F4ECEC"
+        android:textColorHint="#80808083"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Free_Text"
+
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#F4ECEC"
+        android:textColorHint="#80808083"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+
+        tools:ignore="TextFields" />
+
+    <ImageView
+        android:id="@+id/uploadpdf"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="15dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/pdf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginRight="15dp"
+        android:text="Upload A Pdf"
+        android:textColor="#798BC1"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+    <Button
+
+        android:id="@+id/SubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="625dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="SUBMIT"
+        android:text="SUBMIT"
+        android:textAllCaps="false"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>

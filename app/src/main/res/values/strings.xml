@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>CPP</item>
+    </string-array>
+    <string name="app_name">AndroidSpinnerExample</string>
+    <string name="select"> Sector</string>
+    <string name="your"> Region</string>
+    <string name="level"> Skills</string>
+
+
+    <string name="sector" />
+    <string name="region" />
+    <string name="skills" />
+    <string name="experience" />
+    <string name="welcome_text" />
+    <string name="Sector" />
+    <string name="Region" />
+    <string name="submit" />
+    <string name="jobizy" />
+    <string name="already_registered_login_here" />
+    <string name="register" />
+    <string name="phone" />
+    <string name="password" />
+    <string name="email" />
+    <string name="full_name" />
+    <string name="create_new_account" />
+    <string name="form" />
+    <string name="selct_region" />
+    <string name="country" />
+    <string name="choose" />
+    <string name="year_of_experience">Year_Of_Experience</string>
+    <string name="contactnumber">ContactNumber</string>
+    <string name="FreeText" />
+    <string name="Free_Text">Free_Text</string>
+
+
+</resources>
